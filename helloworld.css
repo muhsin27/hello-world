@@ -1,0 +1,24 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+body{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(360deg, #001339, #7069ff); 
+}
+h1, p{
+    color: aliceblue;
+    text-align: center;
+}
+h1{
+    height: 350px;
+}
+.hw{
+    margin-top: 350px;
+}
