@@ -1,11 +1,8 @@
 *{
-
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', sans-serif;
-    
+    font-family: 'Poppins', sans-serif; 
 }
-
 body{
     width: 100%;
     min-height: 100vh;
@@ -15,9 +12,9 @@ h1, p{
     color: aliceblue;
     text-align: center;
 }
-h1{
-    height: 350px;
-}
 .hw{
-    margin-top: 350px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translat(-50%, -50%)
 }
