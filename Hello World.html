@@ -1,14 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hello World</title>
-    <link rel="stylesheet" href="helloworld.css">
-</head>
-<body>
-    
-    <div class="hw"><h1>Hello World!!!</h1><p>Hello world</p></div>
-
-</body>
+    <link rel="stylesheet" href="helloworld.css" />
+    <style>
+      body {
+        width: 100%;
+        min-height: 100vh;
+        background: linear-gradient(360deg, #001339, #7069ff);
+      }
+      h1,
+      p {
+        color: aliceblue;
+        text-align: center;
+      }
+      .hw {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="hw">
+      <h1>Hello World!!!</h1>
+      <p>Hello world</p>
+    </div>
+  </body>
 </html>
